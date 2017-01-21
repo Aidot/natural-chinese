@@ -2,11 +2,12 @@
 
 #Useage
 ## classifier.js
-	```
-		fs.readFile('./corpus/test.txt', function(err, callback){
-			//...
-		});
-	```
+
+```javascript
+fs.readFile('./corpus/test.txt', function(err, callback){
+	//...
+});
+```
 
 	* Relace './corpus/test.txt' to your corpus text file.
 	* Text content format Example(One sentence per line): 
@@ -17,9 +18,9 @@
 	
 ## use.js
 
-	```
-		var text = "房间很干净温馨，前台服务态度很好，有家的感觉，值得！";
-	```
+```javascript
+	var text = "房间很干净温馨，前台服务态度很好，有家的感觉，值得！";
+```
 
 
 #Contributors
