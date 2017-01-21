@@ -1,0 +1,26 @@
+{
+  "name": "natural-chinese",
+  "version": "1.0.0",
+  "description": "Chinese sentiment classifier base on NaturalNode and Jieba",
+  "main": "demo.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "natural": "^0.4.0",
+    "nodejieba": "^2.2.4",
+    "stopword": "^0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chinese",
+    "natural",
+    "nlp",
+    "train",
+    "jieba",
+    "classifier"
+  ],
+  "author": "Aidot",
+  "license": "MIT"
+}
