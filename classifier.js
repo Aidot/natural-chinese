@@ -6,7 +6,7 @@ var stopwords = require("./words/stop.json");
 var classifier = new natural.BayesClassifier();
 
 
-fs.readFile('./corpus/test.txt', function(err, callback){
+fs.readFile('./data/yishi/mix.txt', function(err, callback){
 	var lines = callback.toString().split(/(?:\r\n|\r|\n)/g);
 	lines.forEach(function (line) {
 		var arr = line.split('||');
@@ -16,7 +16,7 @@ fs.readFile('./corpus/test.txt', function(err, callback){
 		}
 	});
 	classifier.train();
-	classifier.save('./model/test.json', function(err, classifier) {
+	classifier.save('./model/consc.json', function(err, classifier) {
 	    // the classifier is saved to the classifier.json file!
 		console.log('Saved --> .json');
 	});
