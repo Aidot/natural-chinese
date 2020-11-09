@@ -24,5 +24,6 @@ fs.readFile('./corpus/test.txt', function(err, callback){
 
 
 #Contributors
-	* Natural Node: https://github.com/NaturalNode/natural
-	* Node Jieba  : https://github.com/yanyiwu/nodejieba
+
+* Natural Node: https://github.com/NaturalNode/natural
+* Node Jieba  : https://github.com/yanyiwu/nodejieba
